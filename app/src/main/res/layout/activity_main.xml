@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLY THE DROGO"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/dino_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:text="Enter Name:"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Name_Ans"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="text|textPersonName"
+            android:textSize="45sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/scoreboard" />
+
+</LinearLayout>

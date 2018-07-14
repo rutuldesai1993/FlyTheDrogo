@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fly The Drogo</string>
+    <string name="high_score_db_activity_is_working">High score DB activity is working .........</string>
+    <string name="Start">START</string>
+</resources>
